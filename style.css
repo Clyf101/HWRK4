@@ -1,0 +1,122 @@
+/* Style for the quiz container */
+.quiz-container {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+.hide{
+    display: none;
+}
+  /* Style for the start button */
+  #start-btn {
+    background-color: #646464;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+  }
+  #start-btn:hover{
+    background-color: #646464;
+    color: #333;
+  }
+  
+  /* Style for the question and choices */
+  #question {
+    font-size: 24px;
+    margin-bottom: none;
+  }
+  
+  #choices button {
+    background-color: #b9b9b9;
+    border: 2px solid #ddd;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 3px auto;
+    width: 80%;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  #choices button:hover{
+    background-color: aliceblue;
+  }
+  
+  /* Style for the timer */
+  #timer {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  
+  /* Style for the save form */
+  .save-form {
+    display: none;
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+    
+  }
+  
+  #initials-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #initials-form input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  #initials-form button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the clear button */
+  #clear-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the high scores dropdown */
+  .high-scores-dropdown-container {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .high-scores-dropdown {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .high-scores-dropdown option {
+    font-size: 16px;
+  }
